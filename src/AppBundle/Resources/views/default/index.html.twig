@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+
+    <form name="credit">
+
+        <div class="form-group">
+
+            <label for="credit_sum">Сумму кредита</label>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">RUB </span>
+                </div>
+                <input type="text" id="credit_sum" data-ng-model="form.sum" class="form-control">
+
+            </div>
+            <p data-ng-show="errorSum" class="text-danger">[[errorSum]]</p>
+
+        </div>
+
+        <div class="form-group">
+            <label for="credit_duration">Срок кредита(в месяцах)</label>
+            <input type="number" id="credit_duration" data-ng-model="form.duration" class="form-control">
+            <p data-ng-show="errorDuration" class="text-danger">[[errorDuration]]</p>
+        </div>
+
+        <div class="form-group">
+            <label for="credit_percent">Процентная ставка</label>
+            <div class="input-group">
+                <input type="text" id="credit_percent" data-ng-model="form.percent" class="form-control">
+                <div class="input-group-append">
+                    <span class="input-group-text">%</span>
+                </div>
+            </div>
+            <p data-ng-show="errorPercent" class="text-danger">[[errorPercent]]</p>
+        </div>
+
+        <div class="form-group">
+            <label for="credit_firstPayment">Первый платеж</label>
+            <input type="date" id="credit_firstPayment" data-ng-model="form.firstPayment" class="form-control">
+            <p data-ng-show="errorFirstPayment" class="text-danger">[[errorFirstPayment]]</p>
+        </div>
+
+        <div class="form-group">
+
+            <button type="submit" id="credit_submit" data-ng-click="submit()"
+                    class="btn-secondary btn">Рассчитать
+            </button>
+        </div>
+
+    </form>
+
+    <div class="loading" data-ng-show="loading">
+        <img src="/bundles/app/images/loading.gif"/>
+    </div>
+
+
+
+    <table data-ng-show="paymentSchedule" class="table table-bordered">
+        <thead>
+        <tr>
+            <th scope="col">№ платежа</th>
+            <th scope="col">Дата платежа</th>
+            <th scope="col">Основной долг</th>
+            <th scope="col">проценты</th>
+            <th scope="col">общая сумма</th>
+            <th scope="col">остаток долга</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-ng-repeat="payment in paymentSchedule">
+            <th scope="row">[[payment.paymentNumber]]</th>
+            <td>[[payment.paymentDate]]</td>
+            <td>[[payment.mainDebt| number:2]]</td>
+            <td>[[payment.percent| number:2]]</td>
+            <td>[[payment.totalAmount| number:2]]</td>
+            <td>[[payment.balance| number:2]]</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+
+{% endblock %}

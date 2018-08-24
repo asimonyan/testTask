@@ -1,0 +1,14 @@
+{
+  "name": "testTask",
+  "version": "0.0.0",
+  "authors": [
+    "Aram Simonyan <asimonyan87@gmail.com>"
+  ],
+  "dependencies": {
+    "jquery": "3.3.*",
+    "angular": "1.4.*",
+    "bootstrap": "4.1.*",
+    "toastr" : "2.1.*"
+  }
+}
+
