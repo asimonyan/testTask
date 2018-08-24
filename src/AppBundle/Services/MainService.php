@@ -86,15 +86,6 @@ class MainService
                     $this->em->clear();
             }
 
-//            $result[] = [
-//                'paymentNumber' => $paymentNumber ++,
-//                'paymentDate' => $p->format('Y-m'),
-//                'mainDebt' => $mainDebt,
-//                'percent' => $percent,
-//                'totalAmount' => $paymentPayMonth,
-//                'balance' => $remainDebt,
-//            ];
-
             $sum -= $mainDebt;
         }
 
