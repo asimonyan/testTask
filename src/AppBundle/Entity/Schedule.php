@@ -51,7 +51,7 @@ class Schedule
     protected $balance;
 
     /**
-     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Credit", inversedBy="schedules")
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Credit", inversedBy="schedules", cascade={"persist"})
      * @ORM\JoinColumn(name="credit_id", referencedColumnName="id")
      */
     protected $credit;
