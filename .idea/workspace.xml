@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa171d78-7ce5-4b55-918e-786e409619d5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppBundle/Entity/Schedule.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppBundle/Entity/Schedule.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +27,7 @@
           <entry key="gitignore" value="14" />
           <entry key="js" value="303" />
           <entry key="json" value="19" />
+          <entry key="md" value="91" />
           <entry key="php" value="3003" />
           <entry key="twig" value="1069" />
           <entry key="yaml" value="21" />
@@ -40,6 +40,7 @@
           <entry key="Git file" value="14" />
           <entry key="JSON" value="19" />
           <entry key="JavaScript" value="309" />
+          <entry key="Markdown" value="91" />
           <entry key="PHP" value="3003" />
           <entry key="Twig" value="1063" />
           <entry key="YAML" value="79" />
@@ -52,6 +53,7 @@
           <entry key="gitignore" value="1" />
           <entry key="js" value="4" />
           <entry key="json" value="3" />
+          <entry key="md" value="1" />
           <entry key="php" value="61" />
           <entry key="twig" value="8" />
           <entry key="yaml" value="3" />
@@ -64,6 +66,7 @@
           <entry key="Git file" value="1" />
           <entry key="JSON" value="3" />
           <entry key="JavaScript" value="4" />
+          <entry key="Markdown" value="1" />
           <entry key="PHP" value="61" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Twig" value="8" />
@@ -104,11 +107,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Schedule.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="53" column="104" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="517">
+                <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -158,6 +173,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Credit.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/Schedule.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -344,7 +360,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24067000" />
+    <option name="totallyTimeSpent" value="24789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
@@ -569,6 +585,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="53" column="104" selection-start-line="53" selection-start-column="104" selection-end-line="53" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="517">
+            <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
